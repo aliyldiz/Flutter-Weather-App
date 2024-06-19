@@ -95,7 +95,7 @@ class MyHomePageState extends State<MyHomePage> {
 
   getCitySearch(String? q) async {
     var response = (await http.get(Uri.parse(
-        'https://api.geoapify.com/v1/geocode/autocomplete?text=$q&type=city&format=json&apiKey=552e057cf7694553818c4b2cf3ccd1f7')));
+        'https://api.geoapify.com/v1/geocode/autocomplete?text=$q&type=city&format=json&apiKey=YOUR_API_KEY')));
     return SearchModel.fromJson(jsonDecode(response.body));
   }
 
@@ -1226,7 +1226,7 @@ class MapClient extends http.BaseClient {
   @override
   Future<http.StreamedResponse> send(http.BaseRequest request) {
     return http.Request('GET',
-            Uri.parse("${request.url}?appid=7b0b2395e0a953df1afeeb7ae7626527"))
+            Uri.parse("${request.url}?appid=YOUR_API_KEY"))
         .send();
   }
 }
