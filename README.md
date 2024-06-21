@@ -16,11 +16,6 @@ The Flutter Weather App is a mobile application built using the Flutter framewor
 - **Weather Icons:** Shows appropriate icons for different weather conditions.
 - **Error Handling:** Displays error messages for invalid city names or connectivity issues.
 
-## Screenshots
-
-![Home Screen](screenshots/home_screen.png)
-![Search Screen](screenshots/search_screen.png)
-
 ## Getting Started
 
 ### Prerequisites
