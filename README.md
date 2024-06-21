@@ -1,57 +1,92 @@
-Flutter Weather App
+# Flutter Weather App
 
-Welcome to the Flutter Weather App! This application provides current weather information for any location. Built with Flutter, the app demonstrates the use of various Flutter features, such as state management, network requests, and UI design.
+## Overview
 
-Features
+The Flutter Weather App is a mobile application built using the Flutter framework. It provides users with real-time weather information based on their location or a specified city. The app fetches weather data from an external API and presents it in an intuitive and user-friendly interface.
 
-Current Weather Information: Get real-time weather data for any city.
-Search Functionality: Search for weather information by city name.
-Location-Based Weather: Automatically fetch weather data based on the user's current location.
-Responsive Design: Supports multiple screen sizes and orientations.
-Error Handling: Displays appropriate messages for network errors and invalid city names.
-Getting Started
+## Features
 
-To get a local copy up and running, follow these simple steps.
+- **Current Weather:** Displays the current weather conditions including temperature, humidity, wind speed, and weather description.
+- **Search Functionality:** Allows users to search for weather information by city name.
+- **Location-Based Weather:** Automatically fetches and displays weather information based on the user's current location.
+- **Weather Icons:** Shows appropriate icons for different weather conditions.
+- **Error Handling:** Displays error messages for invalid city names or connectivity issues.
 
-Prerequisites
-Flutter SDK: Install Flutter
-An IDE (e.g., Visual Studio Code, Android Studio)
-Installation
-Clone the repo
+## Screenshots
 
-sh
-Copy code
-git clone https://github.com/your_username/flutter_weather_app.git
-Navigate to the project directory
+![Home Screen](screenshots/home_screen.png)
+![Search Screen](screenshots/search_screen.png)
 
-sh
-Copy code
-cd flutter_weather_app
-Install dependencies
+## Getting Started
 
-sh
-Copy code
-flutter pub get
-Run the app
+### Prerequisites
 
-sh
-Copy code
-flutter run
-Usage
+To run this project, you need to have the following installed on your local machine:
 
-Search for a City: Enter the name of the city in the search bar to get current weather information.
-Use Location Services: Allow the app to access your location to automatically fetch weather data for your current location.
-Contributing
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/) (with Flutter and Dart plugins)
+- [Git](https://git-scm.com/)
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+### Installation
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-License
+1. **Clone the repository:**
 
-Distributed under the MIT License. See LICENSE for more information.
+    ```bash
+    git clone https://github.com/aliyldiz/Flutter-Weather-App.git
+    cd Flutter-Weather-App
+    ```
 
-Project Link: [https://github.com/your_username/flutter_weather_app](https://aliyldiz.github.io/weather/#/)
+2. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Set up API key:**
+
+    - Obtain an API key from a weather service provider (e.g., OpenWeatherMap).
+    - Create a file named `config.dart` in the `lib` directory.
+    - Add your API key to `config.dart`:
+
+        ```dart
+        const String apiKey = 'YOUR_API_KEY';
+        ```
+
+4. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+### Home Screen
+
+- The home screen displays the current weather based on the user's location.
+- Users can refresh the weather data by pulling down on the screen.
+
+### Search Screen
+
+- Users can navigate to the search screen to enter a city name.
+- The app will fetch and display the weather information for the specified city.
+
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
+
+### Steps to Contribute
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-branch`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or issues, please contact [Ali Yildiz](https://github.com/aliyldiz).
