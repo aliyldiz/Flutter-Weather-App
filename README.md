@@ -1,5 +1,9 @@
 # Flutter Weather App
 
+[https://github.com/aliyldiz/Flutter-Weather-App/assets/136450832/c9feaff4-ffd8-436c-b258-66df990ede2c](https://github.com/aliyldiz/Flutter-Weather-App/assets/136450832/48c79e06-3937-43d4-a6c2-9c135b125757
+)
+
+
 ## Overview
 
 The Flutter Weather App is a mobile application built using the Flutter framework. It provides users with real-time weather information based on their location or a specified city. The app fetches weather data from an external API and presents it in an intuitive and user-friendly interface.
